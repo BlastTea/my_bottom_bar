@@ -16,12 +16,12 @@ class Fragment1 extends StatelessWidget {
           ),
           const SizedBox(height: 16.0),
           FilledButton(
-            onPressed: () => homepageSelectedIndex.value = 1,
+            onPressed: () => homepageKey.currentState?.setSelectedIndex(1),
             child: const Text('Alarm'),
           ),
           const SizedBox(height: 16.0),
           FilledButton(
-            onPressed: () => homepageSelectedIndex.value = 2,
+            onPressed: () => homepageKey.currentState?.setSelectedIndex(2),
             child: const Text('Settings'),
           ),
         ],

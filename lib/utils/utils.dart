@@ -1,3 +1,5 @@
 import 'package:flutter/material.dart';
 
-ValueNotifier<int> homepageSelectedIndex = ValueNotifier(0);
+import '../views/pages/pages.dart';
+
+GlobalKey<HomepageState> homepageKey = GlobalKey();
